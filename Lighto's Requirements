@@ -1,0 +1,8 @@
+Design PCB Requirements
+  Hard:
+    1. Have two charging modes for a higher and lower charging current for the battery(200mA, and approximately 600mA ±100mA.
+    2. Provide an ON/OFF switch. OFF state: battery draw <30uA. ON state: can provide your robot peak current.The switch needs to shut down 5V and 3V3.
+  Medium:
+    1. Provide 2x External Load Switching at 1A each.
+  Chillin:
+    1. Charge the battery from the 9V input pin (listed in the power pinout table)

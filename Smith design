@@ -1,5 +1,9 @@
 Hard:
-1. Motors
-2. i2C
+1. Operate up to 4 motors bidirectionally with the pins available to you (listed in the power pinout table). You will need to control 2x motors which could each draw 
+       200mA at the highest voltage of a 1S1P battery (the battery is further specified in the battery section). The other 2x motors are for the auxiliary connection and need 
+       to operate 500mA each.
+2. Integrate USB C and get 9V out of the USB Host.
 Medium:
+1. Place an INA219 on the I2C Bus and configure it correctly with respect to the hardware.
 Chillin:
+1. Provide a 3V3 and 5V Out.

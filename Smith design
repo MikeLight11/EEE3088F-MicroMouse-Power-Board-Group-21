@@ -4,6 +4,7 @@ Hard:
        to operate 500mA each.
 2. Integrate USB C and get 9V out of the USB Host.
 Medium:
-1. Place an INA219 on the I2C Bus and configure it correctly with respect to the hardware.
+1. Place an INA219 for monitoring the battery on the I2C Bus and configure it correctly with
+respect to the hardware (cannot have BOTH A0 AND A1 on GND)
 Chillin:
 1. Provide a 3V3 and 5V Out.

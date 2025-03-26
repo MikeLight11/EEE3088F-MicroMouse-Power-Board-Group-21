@@ -4442,6 +4442,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -5838,6 +5939,10 @@
 		(uuid "3bc37613-85a9-494f-aee9-03720d462a7b")
 	)
 	(no_connect
+		(at 175.26 48.26)
+		(uuid "3c090c44-e723-4e02-a8c0-22a06f8a488d")
+	)
+	(no_connect
 		(at 43.18 157.48)
 		(uuid "507afc2b-7425-427f-8021-dbf5d7783bc0")
 	)
@@ -5896,6 +6001,10 @@
 	(no_connect
 		(at 53.34 96.52)
 		(uuid "f0f3a22c-5810-4300-9cd8-d55687da0efa")
+	)
+	(no_connect
+		(at 187.96 45.72)
+		(uuid "f4fd91c8-a0d9-4c7e-9d87-bf6e94223d52")
 	)
 	(wire
 		(pts
@@ -6246,6 +6355,16 @@
 			(type default)
 		)
 		(uuid "16448687-9f8b-44f5-a659-b304c2ed6a82")
+	)
+	(wire
+		(pts
+			(xy 160.02 106.68) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18462b55-8eab-4695-90bb-323bcd07162e")
 	)
 	(wire
 		(pts
@@ -6619,6 +6738,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 106.68) (xy 198.12 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7ebf59-787b-40c3-90b8-9186b12d3674")
+	)
+	(wire
+		(pts
 			(xy 306.07 50.8) (xy 308.61 50.8)
 		)
 		(stroke
@@ -6966,6 +7095,16 @@
 			(type default)
 		)
 		(uuid "4989721f-b2d3-4e1f-9209-fb6892a4c198")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ef58f2-bab6-4c8b-a6f6-4c5eff2a32e9")
 	)
 	(wire
 		(pts
@@ -7649,7 +7788,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 21.59) (xy 120.65 24.13)
+			(xy 110.49 21.59) (xy 110.49 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8119,7 +8258,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 21.59) (xy 105.41 24.13)
+			(xy 95.25 21.59) (xy 95.25 24.13)
 		)
 		(stroke
 			(width 0)
@@ -9119,6 +9258,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 118.11) (xy 198.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c414cc-ee0c-42f7-8459-c014c3ca31f3")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 185.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e250949d-99e6-4c0c-ac68-f1d68bdb495e")
+	)
+	(wire
+		(pts
 			(xy 36.83 149.86) (xy 43.18 149.86)
 		)
 		(stroke
@@ -9259,7 +9418,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 24.13) (xy 111.76 24.13)
+			(xy 95.25 24.13) (xy 101.6 24.13)
 		)
 		(stroke
 			(width 0)
@@ -9319,7 +9478,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 24.13) (xy 127 24.13)
+			(xy 110.49 24.13) (xy 116.84 24.13)
 		)
 		(stroke
 			(width 0)
@@ -9458,7 +9617,7 @@
 		(uuid "05091fb8-5734-4700-84ff-4abe5629d2a4")
 	)
 	(label "HV"
-		(at 111.76 24.13 0)
+		(at 101.6 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9758,7 +9917,7 @@
 		(uuid "790ef303-b0ac-4271-a8e2-183f8df5f6c3")
 	)
 	(label "Battery"
-		(at 127 24.13 0)
+		(at 116.84 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10166,6 +10325,71 @@
 			(justify left bottom)
 		)
 		(uuid "fb9e2708-2ea9-4221-9e12-329209f245c0")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 172.72 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "016ea32f-672a-42e2-a7fe-2763b53f54a5")
+		(property "Reference" "#PWR04"
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V Out"
+			(at 177.8 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a4ccc6b-82aa-4c51-90af-78f04b74522a")
+		)
+		(instances
+			(project "powerSubsys full final"
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -12799,6 +13023,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 172.72 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45c5cd3a-2d85-4181-af64-825b05b06731")
+		(property "Reference" "#FLG02"
+			(at 172.72 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 178.816 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffb9c1b5-0b93-4d74-9305-c63c8b8123be")
+		)
+		(instances
+			(project "powerSubsys full final"
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 106.68 160.02 0)
 		(unit 1)
@@ -13551,6 +13840,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 198.12 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cfe0c5e-f531-47d9-9002-ce25716d5687")
+		(property "Reference" "#PWR042"
+			(at 198.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 200.914 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "824cae80-1cab-4145-81cb-9c7e4e019ba2")
+		)
+		(instances
+			(project "powerSubsys full final"
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 107.95 48.26 90)
 		(unit 1)
@@ -14102,6 +14456,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 185.42 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "691e219b-5605-4fe9-8854-b6e8aee82f76")
+		(property "Reference" "#FLG03"
+			(at 185.42 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 191.516 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "021e810a-3bb6-4c3a-81a4-a2d515eeef0f")
+		)
+		(instances
+			(project "powerSubsys full final"
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 146.05 152.4 90)
 		(unit 1)
@@ -14165,6 +14584,71 @@
 			(project "powerSubsys"
 				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 185.42 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d0389e3-1c10-41f0-8db3-8503b408fe81")
+		(property "Reference" "#PWR041"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vbat out"
+			(at 190.5 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 185.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ce4951d-e25a-423e-923d-cd8710209472")
+		)
+		(instances
+			(project "powerSubsys full final"
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14571,7 +15055,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 120.65 21.59 0)
+		(at 110.49 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14579,7 +15063,7 @@
 		(dnp no)
 		(uuid "75b949d3-7c27-41e5-8b17-8ffbcff4d629")
 		(property "Reference" "#PWR037"
-			(at 120.65 25.4 0)
+			(at 110.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14588,7 +15072,7 @@
 			)
 		)
 		(property "Value" "Vbat out"
-			(at 120.65 17.78 0)
+			(at 110.49 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +15080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 21.59 0)
+			(at 110.49 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +15089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 21.59 0)
+			(at 110.49 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14614,7 +15098,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 120.65 21.59 0)
+			(at 110.49 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +15259,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 105.41 21.59 0)
+		(at 95.25 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14783,7 +15267,7 @@
 		(dnp no)
 		(uuid "7a636081-4776-4e32-99e9-0d7988c1f664")
 		(property "Reference" "#PWR026"
-			(at 105.41 25.4 0)
+			(at 95.25 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14792,7 +15276,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 105.41 17.78 0)
+			(at 95.25 17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14800,7 +15284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 21.59 0)
+			(at 95.25 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14809,7 +15293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 21.59 0)
+			(at 95.25 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +15302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 105.41 21.59 0)
+			(at 95.25 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15606,6 +16090,71 @@
 			(project "powerSubsys full"
 				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 198.12 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9306ad65-5047-403e-9ff5-573cc04db478")
+		(property "Reference" "#FLG04"
+			(at 198.12 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 204.216 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 198.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3554e95f-4739-4570-84ee-d0af8c63aa77")
+		)
+		(instances
+			(project "powerSubsys full final"
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -17079,6 +17628,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 198.12 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2e4411e-a969-4322-a484-5b2e21064623")
+		(property "Reference" "#FLG05"
+			(at 198.12 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 204.216 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aa213a6-c59f-454a-b1f3-0ede6429f1c4")
+		)
+		(instances
+			(project "powerSubsys full final"
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 271.78 144.78 0)
 		(unit 1)
@@ -17547,6 +18161,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 160.02 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2f0b830-8112-46db-8ca9-66a99148a481")
+		(property "Reference" "#PWR040"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.576 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77e9f6e8-77df-4c1b-a2d3-609f0a3b77dc")
+		)
+		(instances
+			(project "powerSubsys full final"
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 287.02 109.22 0)
 		(unit 1)
@@ -17745,6 +18424,71 @@
 			(project "powerSubsys"
 				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 160.02 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc6be710-0692-48df-acf3-0eedeec854fa")
+		(property "Reference" "#FLG01"
+			(at 160.02 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 165.862 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eacd91f3-ea9b-4bb9-b5eb-60374b60328b")
+		)
+		(instances
+			(project ""
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -19274,6 +20018,71 @@
 			(project "powerSubsys full"
 				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 198.12 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f638dd71-782d-4993-9e15-f72dc8879f8f")
+		(property "Reference" "#PWR043"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3 Out"
+			(at 203.708 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9caf4a39-4b28-4e4b-941d-e90a39ef0d9a")
+		)
+		(instances
+			(project "powerSubsys full final"
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)

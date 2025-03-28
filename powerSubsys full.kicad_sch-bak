@@ -14545,9 +14545,9 @@
 		(at 181.61 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77ed2540-6be1-4ff5-a416-eff973d5a37f")
 		(property "Reference" "J2"
@@ -15668,9 +15668,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9d9154b8-1c43-49d2-abfa-7e18acd7656f")
 		(property "Reference" "J1"
 			(at 181.61 29.21 0)

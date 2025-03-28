@@ -2573,7 +2573,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Small_Open"
+		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2582,18 +2582,18 @@
 				(hide yes)
 			)
 			(exclude_from_sim yes)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at 0 2.794 0)
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Small_Open"
-				(at 0 -2.286 0)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2618,7 +2618,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, small symbol, open"
+			(property "Description" "Solder Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2627,7 +2627,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Jumper SPST"
+			(property "ki_keywords" "solder jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2636,7 +2636,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+			(property "ki_fp_filters" "SolderJumper*Open*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2645,10 +2645,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_2_Small_Open_0_0"
-				(circle
-					(center -1.016 0)
-					(radius 0.254)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2657,23 +2658,58 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Open_0_1"
 				(arc
-					(start -0.762 1.0196)
-					(mid 0 1.2729)
-					(end 0.762 1.0196)
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2683,10 +2719,10 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Small_Open_1_1"
+			(symbol "SolderJumper_2_Open_1_1"
 				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
+					(at -3.81 0 0)
+					(length 2.54)
 					(name "A"
 						(effects
 							(font
@@ -2703,8 +2739,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
+					(at 3.81 0 180)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -6025,12 +6061,6 @@
 		(uuid "8a32073c-69e8-479c-8d7d-a23ea5a1676f")
 	)
 	(junction
-		(at 114.3 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a51cbf4-9365-43be-ac87-ae9df3aa8ea7")
-	)
-	(junction
 		(at 69.85 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6334,16 +6364,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 162.56) (xy 114.3 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01230bb7-876d-4116-a7c8-948c661c19f8")
-	)
-	(wire
-		(pts
 			(xy 231.14 111.76) (xy 231.14 115.57)
 		)
 		(stroke
@@ -6484,7 +6504,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 35.56) (xy 299.72 35.56)
+			(xy 289.56 35.56) (xy 298.45 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6834,7 +6854,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 162.56) (xy 114.3 162.56)
+			(xy 110.49 162.56) (xy 116.84 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7064,16 +7084,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 35.56) (xy 309.88 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2521bc6e-7268-459d-992c-84e30d028cb9")
-	)
-	(wire
-		(pts
 			(xy 322.58 25.4) (xy 322.58 30.48)
 		)
 		(stroke
@@ -7081,6 +7091,16 @@
 			(type default)
 		)
 		(uuid "2714755b-22a1-40c2-ba65-6689d89143b6")
+	)
+	(wire
+		(pts
+			(xy 306.07 35.56) (xy 309.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29edb9a8-1115-49f8-9c87-10722c359dd1")
 	)
 	(wire
 		(pts
@@ -8454,16 +8474,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 162.56) (xy 116.84 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "811a1187-d2ce-432a-a83e-80ba93459d42")
-	)
-	(wire
-		(pts
 			(xy 142.24 154.94) (xy 157.48 154.94)
 		)
 		(stroke
@@ -9564,7 +9574,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 162.56) (xy 114.3 167.64)
+			(xy 114.3 160.02) (xy 114.3 167.64)
 		)
 		(stroke
 			(width 0)
@@ -11088,7 +11098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2μF"
+		(property "Value" "2.2uF"
 			(at 91.186 146.812 90)
 			(effects
 				(font
@@ -11358,7 +11368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 91.948 163.322 0)
 			(effects
 				(font
@@ -11564,7 +11574,7 @@
 				)
 			)
 		)
-		(property "Value" "1μH"
+		(property "Value" "1uH"
 			(at 144.526 116.586 90)
 			(effects
 				(font
@@ -11845,7 +11855,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 303.53 21.844 90)
 			(effects
 				(font
@@ -12056,7 +12066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C0603"
+		(property "Footprint" "Library:C0805"
 			(at 60.96 73.66 0)
 			(effects
 				(font
@@ -12181,7 +12191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 165.608 163.322 0)
 			(effects
 				(font
@@ -12384,7 +12394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 336.804 38.608 0)
 			(effects
 				(font
@@ -13403,7 +13413,7 @@
 		(at 148.59 20.32 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "340ea130-2750-4262-9519-66cd44daf528")
@@ -13770,7 +13780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01μF"
+		(property "Value" "10nF"
 			(at 75.946 158.75 90)
 			(effects
 				(font
@@ -13904,7 +13914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 116.078 61.976 0)
 			(effects
 				(font
@@ -13950,74 +13960,6 @@
 			(project "powerSubsys"
 				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 302.26 35.56 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41438ad1-20be-4abc-8246-344ff30082c0")
-		(property "Reference" "JP1"
-			(at 302.26 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP RITERM"
-			(at 302.26 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:C1206"
-			(at 302.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 302.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 302.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "387ea670-5685-4d35-9eed-b335c4791dc7")
-		)
-		(pin "2"
-			(uuid "0cf488c7-da24-472c-9a83-d20b177c4c19")
-		)
-		(instances
-			(project "powerSubsys full"
-				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -14107,7 +14049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 210.058 163.322 0)
 			(effects
 				(font
@@ -14176,7 +14118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 170.688 106.68 0)
 			(effects
 				(font
@@ -14444,7 +14386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 170.688 59.69 0)
 			(effects
 				(font
@@ -15385,7 +15327,7 @@
 		(at 134.62 20.32 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "63d400fc-e51a-4149-ad22-fec7e2c744f3")
@@ -15530,7 +15472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1μF"
+		(property "Value" "100nF"
 			(at 25.654 27.178 0)
 			(effects
 				(font
@@ -15809,7 +15751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01μF"
+		(property "Value" "10nF"
 			(at 149.606 158.75 90)
 			(effects
 				(font
@@ -16394,9 +16336,9 @@
 		(at 214.63 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "77ed2540-6be1-4ff5-a416-eff973d5a37f")
 		(property "Reference" "J2"
@@ -16617,7 +16559,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5μH"
+		(property "Value" "1.5uH"
 			(at 144.526 69.596 90)
 			(effects
 				(font
@@ -16957,7 +16899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 85.852 85.09 0)
 			(effects
 				(font
@@ -17466,7 +17408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C0805"
+		(property "Footprint" "Library:C0603"
 			(at 231.14 163.83 0)
 			(effects
 				(font
@@ -17513,7 +17455,7 @@
 		(at 55.88 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "91e0e097-b319-4ce0-854c-0122785c59d2")
@@ -17863,9 +17805,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9d9154b8-1c43-49d2-abfa-7e18acd7656f")
 		(property "Reference" "J1"
 			(at 214.63 29.21 0)
@@ -19108,7 +19050,7 @@
 		(at 227.33 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ae1c8bcc-cba1-4d09-8910-bbd9dfd1c195")
@@ -19373,7 +19315,7 @@
 		(at 66.04 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b2f550df-bea5-47a5-b5bc-9916be45cf4a")
@@ -20102,6 +20044,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 302.26 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8ed56cd-f51d-48f5-9701-87b84580399a")
+		(property "Reference" "JP2"
+			(at 302.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 302.26 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 302.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 302.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d013ad6-578d-4f4f-a38b-5886e73461a2")
+		)
+		(pin "1"
+			(uuid "e07e22b2-a05e-4150-95b9-7a79ceb05e5a")
+		)
+		(instances
+			(project ""
+				(path "/7765ff1a-d3b4-4c36-a374-0b467da55076"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 280.67 107.95 0)
 		(unit 1)
@@ -20119,7 +20129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 274.574 109.728 0)
 			(effects
 				(font
@@ -20619,7 +20629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 116.078 108.966 0)
 			(effects
 				(font
@@ -20688,7 +20698,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 274.574 145.288 0)
 			(effects
 				(font
@@ -20757,7 +20767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 335.534 47.498 0)
 			(effects
 				(font
@@ -20882,7 +20892,7 @@
 		(at 162.56 20.32 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e02a2175-931e-461d-a44c-91350c00bac0")
@@ -21345,6 +21355,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6749"
+			(at 293.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d252896f-d1f4-47bf-8ad8-694fa65c1fc8")
 		)
@@ -21697,7 +21716,7 @@
 		(at 111.76 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "eb260fce-6f08-4cdc-8cd7-db4db2647ac4")
@@ -21776,7 +21795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2μF"
+		(property "Value" "2.2uF"
 			(at 164.846 146.812 90)
 			(effects
 				(font
@@ -21832,7 +21851,7 @@
 		(at 111.76 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ed5e5f89-5aa7-4471-bd66-d061fe397703")
@@ -22450,7 +22469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 14.732 27.178 0)
 			(effects
 				(font

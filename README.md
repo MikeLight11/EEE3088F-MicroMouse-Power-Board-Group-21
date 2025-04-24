@@ -43,6 +43,9 @@ Our power subsystem is designed to meet the following key requirements:
 - Output Voltages: 3.3V (300mA max) and 5V (1.5A max)
 - PCB Connector: 2x16 (2.54mm pin pitch) header connecting to the motherboard
 
+## 3D render of PCB
+![WhatsApp Image 2025-03-28 at 17 49 13_c2ff8d84](https://github.com/user-attachments/assets/0063629c-13ba-4d56-a7bf-f3403e7dd4dd)
+
 ## Contributors
 - Michael Lighton (LGHMIC003)
 - Michael Smith (SMTMIC078)

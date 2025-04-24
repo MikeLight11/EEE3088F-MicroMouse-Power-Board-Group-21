@@ -29,11 +29,12 @@ Our power subsystem is designed to meet the following key requirements:
 - **USB-C Integration**: Supports power input through USB-C
 
 ## Repository Structure
-- `/schematics` - KiCad schematic files
-- `/pcb` - PCB design files
-- `/gerbers` - Production Gerber files
-- `/docs` - Documentation including the report
-- `/datasheets` - Component datasheets
+- `/Docs` - Documentation including the report
+- `/Final Schematic and PCB` - KiCad schematic files and PCB design files
+- `/Footprint Library` - Contains all imported footprints 
+- `/Gerbers` - Production Gerber files
+- `/Old Schematics` - Backup KiCad schematic files 
+- `/Production files` - Contains the zip file of the Gerbers, the BOM and CPL (JLCPCB Submission files)
 
 ## Hardware Specifications
 - Dimensions: Maximum 82mm × 60mm
